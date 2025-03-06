@@ -1,5 +1,5 @@
 import re
-from nautobot_data_validation_engine.custom_validators import DataComplianceRule, ComplianceError
+from nautobot.nautobot_data_validation_engine.custom_validators import DataComplianceRule, ComplianceError
 
 class DeviceDataComplianceRules(DataComplianceRule):
     model = "dcim.device"
