@@ -1,5 +1,5 @@
-from .api_test_job import APITestJob
+from .api_test_job import CoreSiteDesign
 
 __all__ = [
-    "APITestJob",
+    "CoreSiteDesign",
 ]
