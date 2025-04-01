@@ -1,5 +1,4 @@
+from nautobot.core.celery import register_jobs
 from .api_test_job import CoreSiteDesign
 
-__all__ = [
-    "CoreSiteDesign",
-]
+register_jobs(CoreSiteDesign)
