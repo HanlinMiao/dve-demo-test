@@ -26,5 +26,5 @@ class APITestJob(Job):
 
         return "Job complete"
 
-name = "Demo Designs"
+
 register_jobs(APITestJob)
