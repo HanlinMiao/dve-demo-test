@@ -1,0 +1,5 @@
+from nautobot.extras.plugins import register_custom_validators
+from .data_compliance_rules import DeviceDataComplianceRules, RackDeviceComplianceRules
+
+
+register_custom_validators(DeviceDataComplianceRules, RackDeviceComplianceRules)
